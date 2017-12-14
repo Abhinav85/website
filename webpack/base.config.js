@@ -1,20 +1,20 @@
 const webpack = require('webpack');
 
-var config = {
+var baseConfig = {
     entry : './index.js',
 
-    output :  {
-        path : '/',
-        filename : 'bundle.js'
-    },
+    // output :  {
+    //     path : '/',
+    //     filename : 'bundle.js'
+    // },
 
-    devServer : {
-        inline : true,
-        port : 1234
-    },
+    // devServer : {
+    //     inline : true,
+    //     port : 1234
+    // },
 
-    devtool : 'source-map',
-    watch : true,
+    // devtool : 'source-map',
+    // watch : true,
 
 
     module : {
@@ -43,4 +43,4 @@ var config = {
     ]
 };
 
-module.exports = config;
+module.exports = baseConfig;
