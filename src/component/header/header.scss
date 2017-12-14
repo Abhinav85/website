@@ -1,0 +1,42 @@
+.fixedHeader{
+    background-color: black;
+    height: 56px;
+    position: fixed;
+    width: 100%;
+    .heading1{
+        // display: inline-block;
+        .leftAlign, .rightAlign{
+            width: 50%;
+            display: -webkit-inline-flex;
+        }
+        .rightAlign{
+            text-align: right;
+        }
+        .active{
+            background-color: rgba(255, 255, 255, 0.1);
+            color: grey;
+            cursor: pointer;
+            // transition-delay: .1s;
+            // font-size: 1.7em;
+            text-decoration: underline;
+        }
+        .headingTab{
+            display: inline-block;
+            color: grey;
+            // margin: 5px 10px;
+            height: 46px;
+            width: 50%;
+            padding-top: 10px;
+            text-align: center;
+            font-size: 1.5em;
+            &:hover{
+                background-color: rgba(255, 255, 255, 0.1);
+                color: grey;
+                cursor: pointer;
+                // transition-delay: .1s;
+                // font-size: 1.7em;
+                text-decoration: underline;
+            }
+        }
+    }
+}
